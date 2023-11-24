@@ -23,8 +23,7 @@ export default function RootLayout({
           <Nav />
         </Suspense>
         {children}
-        <Analytics />
-        <Toast />
+        <Analytics /> 
       </body>
     </html>
   );
